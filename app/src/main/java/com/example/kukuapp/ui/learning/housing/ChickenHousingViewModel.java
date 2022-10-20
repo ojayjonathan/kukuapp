@@ -1,17 +1,18 @@
-package com.example.kukuapp.ui.slideshow;
+package com.example.kukuapp.ui.learning.housing;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SlideshowViewModel extends ViewModel {
-
+public class ChickenHousingViewModel extends ViewModel {
     private final MutableLiveData<String> mText;
 
-    public SlideshowViewModel() {
+    public ChickenHousingViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("Chicken Housing");
     }
+
+
 
     public LiveData<String> getText() {
         return mText;

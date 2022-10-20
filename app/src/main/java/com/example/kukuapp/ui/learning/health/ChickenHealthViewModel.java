@@ -1,17 +1,18 @@
-package com.example.kukuapp.ui.gallery;
+package com.example.kukuapp.ui.learning.health;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
-
+public class ChickenHealthViewModel extends ViewModel {
     private final MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public ChickenHealthViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("Chicken Health");
     }
+
+
 
     public LiveData<String> getText() {
         return mText;
